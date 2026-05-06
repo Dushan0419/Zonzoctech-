@@ -256,6 +256,9 @@
   .solution-subtitle {
     font-size: 1rem;
   }
+  .tab-description{
+    font-size: 12px;
+  }
 
   .solution-tabs {
     display: flex;

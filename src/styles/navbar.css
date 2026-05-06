@@ -953,14 +953,14 @@
     color: #fff;
     border: none;
     white-space: nowrap;
-    box-shadow: 0 4px 12px rgba(0, 68, 143, 0.25);
+    box-shadow: none;
     transition: all 0.3s ease;
   }
 
   /* Show mobile logo */
   .logo-mobile {
     display: block;
-    height: 34px;
+    height: 22px;
   }
 
   /* Hamburger */
@@ -1128,7 +1128,7 @@
   }
 
   .logo-mobile {
-    height: 28px;
+    height: 22px;
   }
   .contact-btn {
     font-size: 15px; /* SAME as Client Login */
@@ -1148,7 +1148,7 @@
   }
 
   .logo-mobile {
-    height: 24px;
+    height: 22px;
   }
 
   .nav-links {

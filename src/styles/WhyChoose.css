@@ -456,7 +456,7 @@
 
 @media (max-width: 768px) {
    .why-choose-section {
-    margin-bottom: 0px;
+    margin-bottom: -60px;
     padding: 60px 20px;
   }
 

@@ -93,10 +93,36 @@
 /* SLIDER WRAPPER */
 /* SLIDER WRAPPER */
 .projects-slider {
-  overflow: hidden;
-  width: 100%;
+  overflow-x: auto;
   overflow-y: visible;
-  padding: 20px 0; 
+  position: relative;
+  width: 100%;
+
+  scroll-behavior: smooth;
+
+  scrollbar-width: none;
+
+  mask-image: linear-gradient(
+    to right,
+    transparent,
+    black 3%,
+    black 97%,
+    transparent
+  );
+
+  -webkit-mask-image: linear-gradient(
+    to right,
+    transparent,
+    black 3%,
+    black 97%,
+    transparent
+  );
+
+  padding: 20px 0;
+}
+
+.projects-slider::-webkit-scrollbar {
+  display: none;
 }
 
 /* TRACK */
@@ -104,7 +130,11 @@
   display: flex;
   gap: 30px;
   width: max-content;
-  animation: slideLeft 22s linear infinite;
+  animation: slideLeft 85s linear infinite;
+  will-change: transform;
+}
+.projects-slider:hover .projects-track {
+  animation-play-state: paused;
 }
 
 /* CARD WIDTH */
@@ -247,7 +277,7 @@ button.explore-btn {
         flex: 0 0 260px; 
     }
     .projects-track {
-        animation-duration: 60s; 
+        animation-duration: 120s; 
     }
 }
 

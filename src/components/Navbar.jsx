@@ -1,7 +1,7 @@
 
 import React, { useEffect, useRef, useState } from "react";
 import "../styles/navbar.css";
-import logo from "../assets/icons/logo.png";
+import logo from "../assets/icons/zonzoclogo3-bg.png";
 import phoneIcon from "../assets/icons/phone-call-icon.svg";
 import { useAuth } from "../context/AuthContext";
 import { useNavigate,Link } from "react-router-dom";

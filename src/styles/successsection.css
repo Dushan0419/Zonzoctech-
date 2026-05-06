@@ -231,6 +231,11 @@ button.explore-btn {
     max-width: 1400px;
   }
 }
+@media (max-width: 1024px) {
+  .projects-track {
+        animation-duration: 50s; 
+    }
+}
 @media (max-width: 768px) {
     .all-works-btn{
         display: none;
@@ -242,7 +247,7 @@ button.explore-btn {
         flex: 0 0 260px; 
     }
     .projects-track {
-        animation-duration: 28s; 
+        animation-duration: 50s; 
     }
 }
 

@@ -233,7 +233,7 @@ button.explore-btn {
 }
 @media (max-width: 1024px) {
   .projects-track {
-        animation-duration: 50s; 
+        animation-duration: 60s; 
     }
 }
 @media (max-width: 768px) {
@@ -247,7 +247,7 @@ button.explore-btn {
         flex: 0 0 260px; 
     }
     .projects-track {
-        animation-duration: 50s; 
+        animation-duration: 60s; 
     }
 }
 
